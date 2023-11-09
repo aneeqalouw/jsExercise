@@ -10,7 +10,7 @@ function addition (){
     let num1 = document.querySelector('#num1').value
     let num2 = document.querySelector('#num2').value
     let answer = +num1 + +num2;
-    output.textContent = answer; //rather use text content to only change the value of the element, not embed another html element
+    output.textContent = answer; //rather use text content to only change the value of the element, not embed another html element. by using innerHtml you can style the element like strong (make it bold)
 
 }
 
