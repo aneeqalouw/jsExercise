@@ -15,9 +15,12 @@ function addition (){
 }
 
 function subtraction () {
+    //collecting input values and assigning them to variables
     let num1 = document.querySelector('#num1').value
     let num2 = document.querySelector('#num2').value
+    //create a variable to store the answer and assign it to the calculation of the numbers
     let answer = +num1 - +num2
+    //display the answer in the label
     output.textContent = answer
 
 }
